@@ -1,6 +1,23 @@
 # DDG-Net: Discriminability-Driven Graph Network for Weakly-supervised Temporal Action Localization
+[Paper]()
 
-## Prerequisites
+Xiaojun Tang
+
+(**ICCV**),2023
+
+## Table of Contents
+1. [Introduction](#introduction)
+1. [Preparation](#preparation)
+1. [Testing](#testing)
+1. [Training](#training)
+1. [Citation](#citation)
+
+## Introduction
+Weakly-supervised
+
+![avatar](./figs/arch.png)
+
+## Preparation
 ### Requirements and Dependencies:
 Here we list our used requirements and dependencies.
  - Linux: Ubuntu 20.04.4 LTS
@@ -20,6 +37,23 @@ We use the 2048-d features provided by MM 2021 paper: Cross-modal Consensus Netw
 ### ActivityNet-v1.2 Dataset：
 We also use the features provided in [MM2021-CO2-Net](https://github.com/harlanhong/MM2021-CO2-Net). The features can be obtained from [here](https://rpi.app.box.com/s/hf6djlgs7vnl7a2oamjt0vkrig42pwho). The annotations are included within this package.
 
+## Testing
+Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1uSUJEo7iN7A3HpY0YD_e_99ECSxk7Tvi?usp=share_link), and put them into "./download_ckpt/".
+
+### Test on THUMOS-14
+Change "path/to/CO2-THUMOS-14" in the script into your own path to the dataset, and run:
+```
+cd scripts/
+./test_thumos.sh
+```
+
+### Test on ActivityNet-v1.2
+Change "path/to/CO2-ActivityNet-12" in the script into your own path to the dataset, and run:
+```
+cd scripts/
+./test_activitynet.sh
+```
+
 ## Training
 Change "path/to/thumos" into your own path to the dataset, and run:
 ```
@@ -29,6 +63,22 @@ Change "path/to/activity" into your own path to the dataset, and run:
 ```
 ./train_activity.sh
 ```
+
+
+## Citation
+If you find the code useful in your research, please cite:
+
+    @inproceedings{mengyuan2022ECCV_DELU,
+      author = {Chen, Mengyuan and Gao, Junyu and Yang, Shicai and Xu, Changsheng},
+      title = {Dual-Evidential Learning for Weakly-supervised Temporal Action Localization},
+      booktitle = {European Conference on Computer Vision (ECCV)},
+      year = {2022}
+    }
+
+## License
+
+See [MIT License](/LICENSE)
+
 ## Acknowledgement
 
 This repo contains modified codes from:
