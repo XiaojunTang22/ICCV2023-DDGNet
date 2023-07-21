@@ -27,4 +27,3 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 --temperature 0.5 \
 --weight 2 \
 --alpha5 3.2
-# We provide different "AWM" to compare, please refer to model.py.
