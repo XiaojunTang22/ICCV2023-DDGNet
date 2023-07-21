@@ -13,4 +13,4 @@ python test.py --without_wandb \
 --use_model DELU_ACT \
 --AWM DDG_Net \
 --model_name ActivityNet-DDG_Net \
---pretrained_ckpt ./best_ActivityNet-DDG_Net.pkl
+--pretrained_ckpt ./download_ckpt/best_ActivityNet.pkl
