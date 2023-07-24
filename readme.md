@@ -1,5 +1,5 @@
 # DDG-Net: Discriminability-Driven Graph Network for Weakly-supervised Temporal Action Localization
-[Paper]()
+###[Paper]()
 
 Xiaojun Tang, Junsong Fan, Chuanchen Luo, Zhaoxiang Zhang, Man Zhang, and Zongyuan Yang
 
