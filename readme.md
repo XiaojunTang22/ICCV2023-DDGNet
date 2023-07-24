@@ -1,5 +1,5 @@
 # DDG-Net: Discriminability-Driven Graph Network for Weakly-supervised Temporal Action Localization
-###[Paper]()
+[Paper]()
 
 Xiaojun Tang, Junsong Fan, Chuanchen Luo, Zhaoxiang Zhang, Man Zhang, and Zongyuan Yang
 
@@ -66,13 +66,6 @@ Change "path/to/activity" into your own path to the dataset, and run:
 
 ## Citation
 If you find the code useful in your research, please cite:
-
-    @inproceedings{mengyuan2022ECCV_DELU,
-      author = {Chen, Mengyuan and Gao, Junyu and Yang, Shicai and Xu, Changsheng},
-      title = {Dual-Evidential Learning for Weakly-supervised Temporal Action Localization},
-      booktitle = {European Conference on Computer Vision (ECCV)},
-      year = {2022}
-    }
 
 ## License
 
