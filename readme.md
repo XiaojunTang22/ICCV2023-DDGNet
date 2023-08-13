@@ -42,24 +42,24 @@ Download the pretrained models from [Google Drive](https://drive.google.com/driv
 ### Test on THUMOS-14
 Change "path/to/thumos" in the script into your own path to the dataset, and run:
 ```
-./test_thumos.sh
+bash ./test_thumos.sh
 ```
 
 ### Test on ActivityNet-v1.2
 Change "path/to/activity" in the script into your own path to the dataset, and run:
 ```
-./test_activitynet.sh
+bash ./test_activitynet.sh
 ```
 
 ## Training
 Change "path/to/thumos" into your own path to the dataset, and run:
 ```
-./train_thumos.sh
+bash ./train_thumos.sh
 ```
 
 Change "path/to/activity" into your own path to the dataset, and run:
 ```
-./train_activity.sh
+bash ./train_activity.sh
 ```
 
 
