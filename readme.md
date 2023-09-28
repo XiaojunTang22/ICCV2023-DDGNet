@@ -2,7 +2,7 @@
 
 Xiaojun Tang, Junsong Fan, Chuanchen Luo, Zhaoxiang Zhang, Man Zhang, and Zongyuan Yang
 
-[![arXiv](https://img.shields.io/badge/arXiv-2108.06524-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2307.16415) [![ICCV2023](https://img.shields.io/badge/ICCV-2021-brightgreen.svg?style=plastic)](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_DDG-Net_Discriminability-Driven_Graph_Network_for_Weakly-supervised_Temporal_Action_Localization_ICCV_2023_paper.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2307.16415-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2307.16415) [![ICCV2023](https://img.shields.io/badge/ICCV-2023-brightgreen.svg?style=plastic)](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_DDG-Net_Discriminability-Driven_Graph_Network_for_Weakly-supervised_Temporal_Action_Localization_ICCV_2023_paper.pdf)
 
 ## Table of Contents
 1. [Introduction](#introduction)
